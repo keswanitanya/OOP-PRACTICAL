@@ -71,8 +71,7 @@ private:
 
 public:
     SecretData(string p, int n) : password(p), secretNumber(n) {}
-    
-    // Declaring FriendClassExample as friend
+      // Declaring FriendClassExample as friend
     friend class FriendClassExample;
 };
 
